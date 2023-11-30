@@ -3,9 +3,6 @@ trigger promosync1 on promotion1__c (after insert) {
     public class ObjinsException extends Exception {
        
     }    
-
-    Promotion1__c p1;
-    Promotion2__c p2;
         
     List<Promotion2__c> objins = new List<Promotion2__c>();
   
