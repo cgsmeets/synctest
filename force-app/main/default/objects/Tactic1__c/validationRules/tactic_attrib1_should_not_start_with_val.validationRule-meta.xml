@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tactic_attrib1_should_not_start_with_val</fullName>
+    <active>true</active>
+    <errorConditionFormula>Begins(attrib1__c, &quot;val&quot;)</errorConditionFormula>
+    <errorMessage>attrib1__c on tactic can not start with val</errorMessage>
+</ValidationRule>

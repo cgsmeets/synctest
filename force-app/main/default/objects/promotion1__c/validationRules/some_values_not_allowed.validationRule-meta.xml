@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>some_values_not_allowed</fullName>
+    <active>true</active>
+    <errorConditionFormula>begins(attrib1__c,&apos;val&apos;)</errorConditionFormula>
+    <errorMessage>Attrib1 can not start with val</errorMessage>
+</ValidationRule>
